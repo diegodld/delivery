@@ -1,0 +1,30 @@
+.pedido {
+  width: 100%;
+  height: calc(100vh - 86px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.pedido button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.details {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1rem;
+  border-radius: 1rem;
+}
