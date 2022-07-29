@@ -3,7 +3,7 @@
 ## App de Delivery
 
 <p>O objetivo era desenvolver um template de um aplicativo com um fluxo de tela simulando a realização de um pedido.</p>
-<p>Esse web app foi projetado para ser utilizado principalmente em plataforma mobile.</p>
+<p>Esse webapp foi projetado para ser utilizado principalmente em plataforma mobile.</p>
 
 ## Tecnologias Usadas
 
