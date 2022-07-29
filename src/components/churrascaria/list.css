@@ -1,0 +1,32 @@
+.churrasco-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.churrasco-container img {
+  width: 100%;
+  max-width: 1200px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.churrasco {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.churrasco ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}

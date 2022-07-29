@@ -2,7 +2,6 @@ import React from "react";
 import "./pizzadetails.css";
 import List from "../lists/List";
 import { pizzas } from "../../data/products";
-export { pizzas } from "../../data/products";
 
 export default function PizzaDetails() {
   return (

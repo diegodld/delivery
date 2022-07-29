@@ -1,5 +1,4 @@
 import React from "react";
-import Pizza from "./img/pizza.jpg";
 import { NavLink } from "react-router-dom";
 import "./card.css";
 
@@ -11,7 +10,7 @@ export default function Card({ title, description, img, link = "/" }) {
           <h1>{title}</h1>
         </header>
         <section className="img">
-          <img src={img} alt="Pizza" />
+          <img src={img} alt={title} />
         </section>
         <section className="info">
           <p>{description}</p>
