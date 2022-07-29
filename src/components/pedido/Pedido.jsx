@@ -2,6 +2,7 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { pizzas } from "../../data/products";
 import { BsCart4 } from "react-icons/bs";
+import { MdLocationOn } from "react-icons/md";
 import ModalPagamento from "../Modal/ModalPagamento";
 import "./pedido.css";
 
@@ -51,6 +52,10 @@ export default function Pedido() {
             </p>
             <p>
               <b>Valor:</b> R$ {product[0].price.toFixed(2)}
+            </p>
+            <p>
+              <b>Endereço:</b>
+              <MdLocationOn /> Av. Vitória, Vitória - ES, 57
             </p>
             <form onSubmit={handleSubmit}>
               <p>
