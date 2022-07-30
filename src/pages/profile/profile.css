@@ -1,0 +1,17 @@
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-content button {
+  width: 10rem;
+  cursor: pointer;
+}
+
+.profile-content .image {
+  color: var(--primary-color);
+  margin-top: 1rem;
+}
