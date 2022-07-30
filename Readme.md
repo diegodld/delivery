@@ -14,3 +14,7 @@
 - React router dom
 - React modal
 - React Icons
+
+## Preview
+
+<p> Link do aplicativo: https://delivery-five-mu.vercel.app/ </p>
